@@ -139,22 +139,32 @@ h1 img{display: block;}
 
 
 /* footer */
+.ftWrap{
+    background:#4D4D4D;
+    /* height: 20px; */
+}
+.ftmenu{
+    margin-bottom: 40px;}
 
 .ftWrap li{
-    width: calc( 370px / 3 );
+    width: calc( ( 430px - 30px ) / 3 );
     display: block; 
-    background-color: #4D4D4D;
+    justify-content: center;
+    text-align: center;
+    /* background-color: #4D4D4D; */
     float: left;
     border-left: 0.5px solid #f1f1f1;
-    /* display: flex;
-    justify-content: center;
-    text-align: center; */
+
+   
 
 }
 .ftWrap li a{
     color: #BDBDBD;
     font-size:x-small;
     margin: 0 auto;
+    display: flex;
 
-}
+    justify-content: center;
+    text-align: center;
+} */
 /* .ftWrap container{position: relative;} */
