@@ -7,7 +7,7 @@
 1. 반갑습니다.
    1. test
 
-1. myhome https://www.naver.com
+1. myhome https://ohnk3605.github.io/2023myhome/01site
 1. 반갑습니다.
    - test
 
