@@ -2,12 +2,12 @@
 ## h2
 ### h3
 👌
-company https://ohnk3605.github.io/2023myhome/01site
+[오나경]https://ohnk3605.github.io
 1. 안녕하세요.
 1. 반갑습니다.
    1. test
 
-1. myhome https://ohnk3605.github.io/2023myhome/01site
+1. 안녕하세요.
 1. 반갑습니다.
    - test
 
@@ -15,6 +15,4 @@ company https://ohnk3605.github.io/2023myhome/01site
 <div>test</div>
  ``` 
 
-```css
-div.box{width:100px}
-```
+1. company https://ohnk3605.github.io/2023myhome/01site
