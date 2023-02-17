@@ -5,3 +5,8 @@ header{width: 1000px; margin: 0 auto;}
     width: 1000px;
     background: red;
 }
+footer{
+    width: 100px;
+    height: 50px;
+    background: blue;
+}
