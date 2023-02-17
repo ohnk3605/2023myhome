@@ -11,10 +11,10 @@
 1. 반갑습니다.
    - test
 
-''' html
+``` html
 <div>test</div>
- ''' 
+ ``` 
 
-'''css
+```css
 div.box{width:100px}
-'''
+```
