@@ -154,6 +154,7 @@ h1 img{display: block;}
 .ftWrap li a{
     color: #BDBDBD;
     font-size:x-small;
+    margin: 0 auto;
 
 }
 /* .ftWrap container{position: relative;} */
