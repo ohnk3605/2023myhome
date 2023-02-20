@@ -48,7 +48,8 @@ h1 img{display: block;}
 #hd .menu li:first-child{border-left: 1px solid #336EAC;}
 #hd .menu li a{
     display: block;height: 44px;font-size: 16px;color:white;
-    text-align: center;line-height: 44px;font-weight:bold;letter-spacing: -0.8px;
+    text-align: center;line-height: 44px;font-weight:bold;
+    letter-spacing: -0.8px;
 }
 
 
@@ -59,7 +60,8 @@ h1 img{display: block;}
     background-image: url(../img/visual_bg.jpg);
     background-repeat: no-repeat;
     background-position: center; */
-    background: #213969 url(../img/visual_bg.jpg) no-repeat center;
+    background: #213969 url(../img/visual_bg.jpg) 
+    no-repeat center;
 }
 
 .vWrap{position: relative;height: 400px;overflow: hidden;}
