@@ -162,11 +162,8 @@ h1 img{display: block;}
     color: #BDBDBD;
     font-size:x-small;
     border-radius: 50%;
+
 }
-.ftmenu li a:after{
-    content:"";display: block;height: 6px;width: 1px;background: #888;
-    position: absolute;
-    border-radius: 50%;}
 
 /* .ftWrap container{position: relative;} */
 .ftBottom{
@@ -177,7 +174,7 @@ h1 img{display: block;}
     float: left;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     width: 135px;
     height: 75px;
 }
@@ -192,9 +189,9 @@ h1 img{display: block;}
 
 
 .ftRight{
-    float: left;
-    display: flex;
-    justify-content: center;
+    /* float: left; */
+    /* display: flex;
+    justify-content: center; */
     /* text-align: center; */
     width: 550px;
     height: 75px;
