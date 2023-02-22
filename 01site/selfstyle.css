@@ -162,11 +162,6 @@ h1 img{display: block;}
     color: #BDBDBD;
     font-size:x-small;
     border-radius: 50%;
-<<<<<<<< HEAD:20230214_myhome/tstyle.css
-
-========
-    position: relative;
->>>>>>>> 37f452c996ff79c9a20fb4d0a47b7e4f86c90c2b:20230214_myhome/selfstyle.css
 }
 .ftmenu li a:after{
     content:"";display: block;height: 6px;width: 1px;background: #888;
