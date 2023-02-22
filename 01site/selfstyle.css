@@ -146,12 +146,17 @@ h1 img{display: block;}
     float: left;
     
 }
+.ftWrap li a:after{
+    content:"";display: block;height: 13px;width: 1px;background: #888;
+    position: absolute;left: -15px;top: 0;
+    border-radius: 50%;
+}
+.ftWrap li:first-child a:after{display: none;}
 
-.ftWrap li{
-    width: calc( 400px / 3 );
-    display: block; 
+
+.ftmenu li{
+    width: calc( 400px / 3 ); 
     float: left;
-    /* border-left: 0.5px solid ; */
     display: flex;
     justify-content: center;
     text-align: center;
@@ -161,7 +166,8 @@ h1 img{display: block;}
 .ftWrap li a{
     color: #BDBDBD;
     font-size:x-small;
-    border-radius: 50%;
+    /* border-radius: 50%; */
+    position: relative;
 
 }
 
@@ -189,20 +195,17 @@ h1 img{display: block;}
 
 
 .ftRight{
-    /* float: left; */
+    float: left;
     /* display: flex;
     justify-content: center; */
     /* text-align: center; */
     width: 550px;
     /* height: 75px; */
 }
-.ftRight li {
+#ftLogo {
     color: #AAAAAA;
-    width: 500px;
-    height: 70px;
-    float: left;
+    font-weight: bold;
 }
-.ftRight li a{
+.ftLast {
     color: #AAAAAA;
-    float: left;
 }
