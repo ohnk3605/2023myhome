@@ -39,15 +39,59 @@ body{
 .hd .gnb{float: right;}
 .hd .gnb li{float: left;width: 170px;}
 .hd .gnb li a{
-    display: block;line-height: 35px;
+    display: table-cell;line-height: 35px;
     text-align: center;
+}
+/* .hd .gnb li a:hover{ } */
+.slideWrap{
+    width: 100%;    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .slideWrap .sItem{
     height: 100vh;
     min-height:400px
 }
+.slideWrap li{
+    background-repeat: no-repeat;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+.slideWrap li .txtWrap{
+    height: 250px;width: 456px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: #ffffff;
+    
+}
+.slideWrap li .txtWrap h3{
+    height: 216px;width: 456px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 104px;
+    background: 0% 0%;
+    text-indent: -2px;
+    letter-spacing: -2.6px;
+    text-decoration: none solid rgb(255,255,255);
+    
+    
+}
+.slideWrap li .txtWrap p{
+    height: 36px;width: 456px;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    text-decoration: none solid rgb(255,255,255);
+   
+}
 /* section  */
-.content{height: 300px;background: pink;}
+.content{height: 300px;background: #ffffff;}
+.content .mainTop{
+    height: 124px;
+    width: 1216px;
+}
+
